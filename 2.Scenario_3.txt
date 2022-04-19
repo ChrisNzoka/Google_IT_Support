@@ -1,7 +1,46 @@
-Dewgood is a small, local non-profit company of 50 employees. They hired you as the sole IT person in the company. The HR person tells you when they need a new computer for an employee. Currently, computers are purchased directly in a physical store on the day that an employee is hired. This is due to budget reasons, as they can’t keep extra stock in the store.
+Company name: Dewgood
+Company type: Non-profit
+Description: A small, local non-profit company.
+Company size: 50 employees
 
-The company has a single server with multiple services on it, a file server, and email. They don’t currently have a messaging system in place. When a new employee is hired, you have to do an orientation with them for login. You’re also responsible for installing all the software they need on their machine, and mapping the file server to their computer. The computers are managed through Windows Active Directory. When an employee leaves, they’re currently not disabled in the directory service.
+Process Improvement #1
+    - Hardware management: Implement hardware lifecycle for proper hardware management
+    Rationale:
+    - Hardware lifecycle allows for maintenance and recycling. Used machines can be recycled and provisioned to new employees.
+    - Recycling helps to remove the cost of purchasing new machines.
 
-The company uses an open-source ticketing system to handle all internal requests as well as external non-profit requests. But the ticketing system is confusing and difficult to use, so lots of the employees reach out to you directly to figure out how to do things. In fact, so many things are difficult to find that employees typically ask around when they have a question.
+Process Improvement #2
+    - Move email services to cloud.
+    - Introduce the use of Slack for instant messaging amongst teams.
+    Rationale:
+    - Managing email server onsite is not advisable as it costs more. There are free or cheap cloud email services.
+    - Taking email services to cloud frees up infrastructure for file server.
+    - It is risky to manage multiple services on a single server. A downtime for one service means a downtime for all.
+    - Instant messaging allows for swift comunication.
 
-There are nightly backups in place of the file server. You store this information on a disk backup and take it home with you everyday to keep it safe in case something happens onsite. There’s also a small company website that’s hosted on the single server at the company. This website is a single html page that explains the mission of the company and provides contact information. The website has gone down many times, and no one knows what to do when it happens.
+Process Improvement #3
+    - Organize users in OU's according to roles in the Active Directory (AD).
+    - Design GPO's for software installations and configuration for authenticated user machines upon boot up and login.
+    - Ship softwares to machines using the AD.
+    - Delist all users who have exited the company.
+    Rationale:
+    - Proper use of AD helps to deploy softwares qucikly to users.
+    - Removing exited members from the domain is very important to protect access from an outsider.
+
+Process Improvement #4
+    - Replace the ticketing system with a more user friendly alternative.
+    - Provide tutorials and guides on the new ticketing software to employees.
+    - Develop documentation system to record all IT related processes and tasks to be performed by employees.
+    Rationale:
+    - A user friendly working environment improves productivity.
+    - Guides and tutorials help users to understand the functionalities of what they use.
+    - Proper documentation reduces the work of the IT support staff.
+
+Process Improvement #5
+    - The files should be backed up online depending on the data size. Several cloud services offer free backups for certain data sizes.
+    - Troubleshoot the reasons why the website keeps going down.
+    - Write a post morterm report on the last downtime.
+    - Document the process of bringing it back online and grant access to other authorized staff.
+    Rationale:
+    - A mobile data is exposed to risk of loss on transit. Cloud backup saves the stress as files are better secured.
+    - The documentation allows someone else to troubleshoot and bring the website back online on the absence of IT Support.
