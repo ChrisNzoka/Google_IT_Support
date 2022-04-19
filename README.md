@@ -3,7 +3,7 @@
 
 <p>This repo contains the solutions to the system administration consultation
 assignments of Course 4,  System Administration and IT Infrastructure Services
-for [Goggle IT Support Professional Certificate](https://www.coursera.org/professional-certificates/google-it-support).</p>
+for</p> [Goggle IT Support Professional Certificate](https://www.coursera.org/professional-certificates/google-it-support).
 
 ## Files and Question answered
 
