@@ -1,0 +1,46 @@
+Company name: W.D. Widgets
+Company type: Sales
+Description: A small company that sells widgets. They’re mostly made up of salespeople who work with lots of clients.
+Company size: 80-100 people.
+
+The company generates a lot of revenue and is rapidly growing. 
+They’re expecting to hire hundreds of new employees in the next year or so,
+and you may not be able to scale your operations at the pace you’re working.
+
+Proccess Improvement #1
+    - Develop a standard documentation of solutions to basic IT related problems.
+    - Grant read access to all necessary users accross the network.
+    - Set up an instant messaging platform such as IRC or Slack for team messaging.
+    Rationale:
+    - Employees can easily access solutions to basic issues via documentations.
+    - Instant messaging will improve work rate and remove delay in communication.
+
+Process Improvement #2
+    - Group users into Role based organizational units (OU)
+    - Create Group Policy Objects (GPO) for deploying softwares to OU's
+    Rationale:
+    - GPO helps to set up and configure several machines at once saving a lot of time.
+    - Grouping users based on roles makes it easy to target users with GPO's
+
+Process Improvement #3
+    - Jump into the cloud. Use cloud service providers to manage several services including;
+      email services, Files storage services for insensitive files, Backups, Instant messaging.
+    Rationale:
+    - Using cloud services helps to remove a lot of infrastructure Management and human errors.
+    - This would as well, reduce the workload of the IT support specialist.
+
+Process Improvement #4
+    - Set up a File server and configure it using a secured file transfer protocol (SFTP) 
+    - Install an FTP client accross all client machines wwhich make use of the file server.
+    - Re-assign permissions to access files and directories for security groups based on roles.
+    - Set up a backup server on-site and off-site to manage disastrous activities and protect data.
+    Rationale:
+    - A file server provides a centrlised location for files. Using FTP clients via a secured channel,
+      authorised user can read, write and execute the files in the server.
+    - Backup helps to recover lost data in case of any mishap.
+
+Process Improvement #5
+    - Place a request to the HR to hire an assistant or scale up the IT field to a team department.
+    Rationale:
+    - This will reduce the workload on a one-man IT team and enhance productivity.
+    
