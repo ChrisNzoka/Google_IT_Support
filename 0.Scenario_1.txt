@@ -4,49 +4,47 @@ Description: A small company that builds open-source software.
 Company size: 100 employees
 
 Process Improvement #1
-    - Improvement of infrastructure procurement: The HR personnel should undertake a vendor research to farmiliarize with the vendors.
+    - Improvement of infrastructure procurement: The HR personnel should undertake vendor research to familiarize themselves with the vendors.
     - Working with Manufacturers:  Contract and set up a business account with a trusted vendor.
-    - Improved Hardware Management: Implement Hardware Lifecycle which calls for reserve hardware in case of emergency.
+    - Improved Hardware Management: Implement Hardware Lifecycle which calls for reserving hardware in case of emergency.
     Rationale:
-    - The knowledge of vendors and their products helps to decide on a vendor to procure from with respect to quality and price.
-    - Working with mnufacturers will help to streamline Infrastructure and enhances compatibility
-    as majority of the company machines come from one manufacturer.
-    - This will also reduce cost of procurement as manufacturers would offer discounts to regular customers.
-    - New employees are provided with machines from the reserve before a new machine is procured.
-    This will curb time wasted before new can actually start working.
+    - The knowledge of vendors and their products helps to decide on a vendor to procure by considering quality and price.
+    - Working with manufacturers will help to streamline Infrastructure and enhances compatibility as the majority of the company machines come from one manufacturer.
+    - This will also reduce the cost of procurement as manufacturers would offer discounts to regular customers.
+    - New employees are provided with machines from the reserve before a new machine is procured. This will curb time wasted before new can start working.
 
 Process Improvement #2
-    - Hardware tracking: Label all company Harwdare.
+    - Hardware tracking: Label all company Hardware.
     - Name machines following the company standardized naming system.
     - Develop a company Hardware inventory for all existing hardware.
     Rationale:
-    - Labelling hardware helps employees to keep track of what belongs to the company and that which belong to them(employees).
-    - Hardware inventory helps to properly track hardware lifecycle.
+    - Labelling hardware helps employees to keep track of what belongs to the company and that which belongs to them(employees).
+    - Hardware inventory helps to track hardware lifecycle.
 
 Process Improvement #3
-    - Relieve HR the task of hardware provisioning and assign that to the Sysadmin or IT support specialist.
+    - Relieve HR of the task of hardware provisioning and assign that to the Sysadmin or IT support specialist.
     - Develop standard company OS Image.
     - Set up a Directory service to manage all the users and computers in the company.
-    - Group employees in a role based system.
-    - Use Active Directorty or openLDAP software to manage directory services with respect to company standard OS and employee roles.
+    - Group employees in a role-based system.
+    - Use Active Directory or OpenLDAP software to manage directory services concerning company standard OS and employee roles.
     Rationale:
     - The Sysadmin or IT support specialist is better trained to handle Hardware provisioning and configuration.
     - A standard OS image for the company creates a uniform working environment.
-    - It is easier to manage a fleet with a directory service software.
-    - Employees are better managed and in role based groups which makes software deployment easier.
+    - It is easier to manage a fleet with directory service software.
+    - Employees are better managed and in role-based groups which makes software deployment easier.
 
 Process Improvement #4
     - Set up employees authentication through a directory service like active directory
     - Develop a standard company documentation guide for new employees.
-    - Use a directory service like Active Directory or openLDAP to manage user Identities and passwords.
+    - Use a directory service like Active Directory or OpenLDAP to manage user identities and passwords.
     Rationale:
-    - Active directory or openLDAP provides an environment to centrally administer to all users and machines.
-    - New employees would be work ready upon going through the documentation provided on resumption.
+    - Active Directory or OpenLDAP provides an environment to centrally administer to all users and machines.
+    - New employees would be work-ready upon going through the documentation provided on resumption.
     - This would save work time and get them working quickly.
-    - Users would get access to their machines an do not need to reimage their computers in the case of lost or forgotten password
+    - Users would get access to their machines and do not need to reimage their computers in the case of a lost or forgotten password
 
 Process Improvement #5
     - Set up a standard documentation system.
     - Place the documents on the network allowing users access to read and comment for updates on documents.
     Rationale:
-    - This would solve the problem of constant communication to access basic information amongst the employees
+    - This would solve the problem of constant communication to access basic information among the employees
