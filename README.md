@@ -7,11 +7,11 @@ for <a href="https://www.coursera.org/professional-certificates/google-it-suppor
 
 ## Files and Question answered
 
-|      File       |      Question answered     |
-| --------------- | -------------------------- |
-| 0.Scenario_1.md | You’re doing systems administration work for Network Funtime Company. Evaluate their current IT infrastructure needs and limitations, then provide at least five process improvements and rationale behind those improvements. Write a 200-400 word process review for this consultation. Remember, there’s no right or wrong answer, but make sure to provide your reasoning. |
-| 1.Scenario_2.md | You’re doing systems administration work for W.D. Widgets. Evaluate their current IT infrastructure needs and limitations, then provide at least five process improvements and rationale behind those improvements. Please write a 200-400 word process review for this consultation. Remember, there’s no right or wrong answer, but make sure to provide your reasoning. |
-| 2.Scenario_3.md | You’re doing systems administration work for Dewgood. Evaluate their current IT infrastructure needs and limitations, then provide at least five process improvements and rationale behind those improvements. Please write a 200-400 word process review for this consultation. Remember, there’s no right or wrong answer, but make sure to provide your reasoning. |
+|       File       |      Question answered     |
+| ---------------- | -------------------------- |
+| 0.Scenario_1.txt | You’re doing systems administration work for Network Funtime Company. Evaluate their current IT infrastructure needs and limitations, then provide at least five process improvements and rationale behind those improvements. Write a 200-400 word process review for this consultation. Remember, there’s no right or wrong answer, but make sure to provide your reasoning. |
+| 1.Scenario_2.txt | You’re doing systems administration work for W.D. Widgets. Evaluate their current IT infrastructure needs and limitations, then provide at least five process improvements and rationale behind those improvements. Please write a 200-400 word process review for this consultation. Remember, there’s no right or wrong answer, but make sure to provide your reasoning. |
+| 2.Scenario_3.txt | You’re doing systems administration work for Dewgood. Evaluate their current IT infrastructure needs and limitations, then provide at least five process improvements and rationale behind those improvements. Please write a 200-400 word process review for this consultation. Remember, there’s no right or wrong answer, but make sure to provide your reasoning. |
 
 ## Goals Achieved
 1. Used the systems administration concepts I learnt in the course to provide technical improvements to the fictitious company current processes.
